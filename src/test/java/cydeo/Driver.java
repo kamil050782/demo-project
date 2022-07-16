@@ -42,6 +42,7 @@ public class Driver {
                         driver = new RemoteWebDriver(url, desiredCapabilities);
                     } catch (Exception e) {
                         e.printStackTrace();
+
                     }
                     break;
 
